@@ -3,6 +3,8 @@ members = [
     "altrios-core",                     # pure rust core with optional pyo3 feature
     "altrios-core/altrios-proc-macros", # proc macros for altrios-core
     "altrios-py",                       # python module exposing altrios-core
+    "route-engine",                     # standalone track network and routing crate
+    "physics-engine",                   # standalone, pluggable train physics engine
 ]
 resolver = "2"
 
