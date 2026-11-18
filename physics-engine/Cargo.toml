@@ -1,0 +1,15 @@
+[package]
+name = "physics-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Standalone, pluggable train physics engine (resistance, powertrain, brakes)"
+license = "BSD-3-Clause"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"
+anyhow = "1.0"
+
+[dev-dependencies]
+approx = "0.5"
